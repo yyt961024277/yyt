@@ -1,0 +1,7 @@
+ child=dofile("extendChild.lua")
+ print(child:setAttack(50)) 
+ c=child:new({attack =100})
+ print(child:add()) 
+ child:Show()
+s= child:createPrivate()
+print(s.getName())
